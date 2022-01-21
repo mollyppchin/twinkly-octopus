@@ -4,6 +4,7 @@ raw-data/
 # e.g. powerpoint files, word files, and any specific files you don't want it to track
 *.ppt
 *.docx
+*.html
 rubbish.R
 
 # History files
