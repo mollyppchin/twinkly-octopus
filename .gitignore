@@ -1,3 +1,11 @@
+# Hide project-specific folders/files
+# e.g. the raw data folder
+raw-data/
+# e.g. powerpoint files, word files, and any specific files you don't want it to track
+*.ppt
+*.docx
+rubbish.R
+
 # History files
 .Rhistory
 .Rapp.history
