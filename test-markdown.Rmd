@@ -1,0 +1,28 @@
+---
+title: "Test"
+author: "Alexa Varah"
+date: "21/01/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Big title
+
+## Sub heading
+
+### Subsubheading
+
+```{r, eval = TRUE, echo = FALSE}
+# eval = FALSE stops the code being run
+# echo = FALSE means the code won't be shown in the rendered document
+x <- 1:100
+y <- rnorm(100)
+
+```
+
+```{r}
+plot(y ~ x)
+```
