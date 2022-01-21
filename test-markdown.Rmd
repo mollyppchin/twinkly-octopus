@@ -23,6 +23,16 @@ y <- rnorm(100)
 
 ```
 
-```{r}
+```{r, eval = FALSE}
 plot(y ~ x)
 ```
+
+```{r, eval = FALSE, echo = FALSE}
+devtools::install_github("hadley/emo")
+library(emo)
+```
+
+Let's all do R! `r knitr::asis_output("\U0001F606")`
+
+![](https://media.giphy.com/media/xUOxf7XfmpxuSode1O/giphy.gif)
+
